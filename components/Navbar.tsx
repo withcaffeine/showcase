@@ -25,7 +25,7 @@ export default function Navbar() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="flex items-center gap-2 text-xl font-bold text-primary-700">
-          <img src="/showcase/app_icon.png" alt="우리동네" width={32} height={32} className="rounded-lg" />
+          <img src="/app_icon.png" alt="우리동네" width={32} height={32} className="rounded-lg" />
           우리동네
         </a>
         <div className="hidden items-center gap-8 md:flex">

@@ -105,7 +105,7 @@ export default function Hero() {
           {/* Left screenshot */}
           <div className="w-[140px] flex-shrink-0 -translate-y-4 md:w-[220px]">
             <img
-              src="/showcase/screenshots/aso_fieldnote_list_blurred.png"
+              src="/screenshots/aso_fieldnote_list_blurred.png"
               alt="임장노트 화면"
               className="rounded-2xl shadow-2xl shadow-primary-900/15 md:rounded-3xl"
             />
@@ -113,7 +113,7 @@ export default function Hero() {
           {/* Center screenshot (larger) */}
           <div className="w-[170px] flex-shrink-0 md:w-[260px]">
             <img
-              src="/showcase/screenshots/aso_reachability_result.png"
+              src="/screenshots/aso_reachability_result.png"
               alt="도달권 분석 결과 화면"
               className="rounded-2xl shadow-2xl shadow-primary-900/20 md:rounded-3xl"
             />
@@ -121,7 +121,7 @@ export default function Hero() {
           {/* Right screenshot */}
           <div className="w-[140px] flex-shrink-0 -translate-y-4 md:w-[220px]">
             <img
-              src="/showcase/screenshots/aso_community.png"
+              src="/screenshots/aso_community.png"
               alt="커뮤니티 화면"
               className="rounded-2xl shadow-2xl shadow-primary-900/15 md:rounded-3xl"
             />

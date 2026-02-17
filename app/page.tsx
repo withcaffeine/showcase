@@ -43,8 +43,8 @@ export default function Home() {
           mockupContent={
             <ScreenshotGroup
               images={[
-                { src: "/showcase/screenshots/aso_fieldnote_list_blurred.png", alt: "임장노트 목록" },
-                { src: "/showcase/screenshots/aso_fieldnote_report_blurred.png", alt: "임장 리포트" },
+                { src: "/screenshots/aso_fieldnote_list_blurred.png", alt: "임장노트 목록" },
+                { src: "/screenshots/aso_fieldnote_report_blurred.png", alt: "임장 리포트" },
               ]}
             />
           }
@@ -66,8 +66,8 @@ export default function Home() {
         mockupContent={
           <ScreenshotGroup
             images={[
-              { src: "/showcase/screenshots/aso_explore_entry.png", alt: "도달권 탐색" },
-              { src: "/showcase/screenshots/aso_reachability_result.png", alt: "도달권 결과" },
+              { src: "/screenshots/aso_explore_entry.png", alt: "도달권 탐색" },
+              { src: "/screenshots/aso_reachability_result.png", alt: "도달권 결과" },
             ]}
           />
         }
@@ -88,8 +88,8 @@ export default function Home() {
           mockupContent={
             <ScreenshotGroup
               images={[
-                { src: "/showcase/screenshots/aso_community.png", alt: "커뮤니티" },
-                { src: "/showcase/screenshots/aso_question.png", alt: "질문 추천" },
+                { src: "/screenshots/aso_community.png", alt: "커뮤니티" },
+                { src: "/screenshots/aso_question.png", alt: "질문 추천" },
               ]}
             />
           }
