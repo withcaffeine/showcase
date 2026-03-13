@@ -31,20 +31,20 @@ export default function Home() {
       <div className="bg-primary-50/30">
         <FeatureDetail
           badge="임장노트"
-          title="현장의 모든 것을 기록하세요"
-          description="동네를 방문하고 체크리스트로 기록하세요. 항목별 평가 결과를 임장 리포트로 한눈에 확인할 수 있습니다."
+          title="브리핑부터 채광 분석까지"
+          description="관심 동네의 부동산 소식을 매일 브리핑으로 받아보세요. 방향만 선택하면 일조량을 자동 계산해주고, 체크리스트로 꼼꼼히 기록할 수 있습니다."
           bullets={[
-            "교통, 학군, 상권 등 항목별 체크리스트",
-            "별점 평가로 객관적인 임장 기록",
-            "항목별 평가 결과를 리포트로 확인",
-            "이전 임장 기록과 비교 분석",
+            "동네별 부동산 소식 브리핑 제공",
+            "실거래 내역(매매·전세) 실시간 확인",
+            "방향 선택 시 채광 시간 자동 분석",
+            "교통, 학군, 상권 등 항목별 리포트",
           ]}
           gradient="from-primary-600/90 to-primary-800/90"
           mockupContent={
             <ScreenshotGroup
               images={[
-                { src: "/screenshots/aso_fieldnote_list_blurred.png", alt: "임장노트 목록" },
-                { src: "/screenshots/aso_fieldnote_report_blurred.png", alt: "임장 리포트" },
+                { src: "/screenshots/aso_briefing.png", alt: "브리핑 화면" },
+                { src: "/screenshots/aso_sunlight_analysis.png", alt: "채광 분석" },
               ]}
             />
           }

@@ -105,8 +105,8 @@ export default function Hero() {
           {/* Left screenshot */}
           <div className="w-[140px] flex-shrink-0 -translate-y-4 md:w-[220px]">
             <img
-              src="/screenshots/aso_fieldnote_list_blurred.png"
-              alt="임장노트 화면"
+              src="/screenshots/aso_auto_rating.png"
+              alt="자동 평가 화면"
               className="rounded-2xl shadow-2xl shadow-primary-900/15 md:rounded-3xl"
             />
           </div>
