@@ -31,21 +31,22 @@ export default function Home() {
       {/* Feature Details */}
       <div className="bg-primary-50/30">
         <FeatureDetail
-          badge="임장노트"
-          title="브리핑부터 채광 분석까지"
-          description="관심 동네의 부동산 소식을 매일 브리핑으로 받아보세요. 방향만 선택하면 일조량을 자동 계산해주고, 체크리스트로 꼼꼼히 기록할 수 있습니다."
+          badge="자동 평가"
+          title="원클릭으로 입지 분석 끝"
+          description="경사도·거점·노선까지 한번에 자동 분석합니다. 고도 프로필 차트로 역까지 실제 지형을 확인하고, 오르막·내리막을 반영한 실제 도보 시간을 알려드립니다."
           bullets={[
-            "동네별 부동산 소식 브리핑 제공",
-            "실거래 내역(매매·전세) 실시간 확인",
-            "방향 선택 시 채광 시간 자동 분석",
-            "교통, 학군, 상권 등 항목별 리포트",
+            "교통·학군·상권 원클릭 자동 평가",
+            "역까지 고도 프로필 차트 제공",
+            "경사도 반영 실제 도보 시간 계산",
+            "항목별 별점으로 한눈에 비교",
           ]}
-          gradient="from-primary-600/90 to-primary-800/90"
+          gradient="from-primary-500/90 to-accent-500/90"
           mockupContent={
             <ScreenshotGroup
               images={[
-                { src: "/screenshots/aso_briefing.png", alt: "브리핑 화면" },
-                { src: "/screenshots/aso_sunlight_analysis.png", alt: "채광 분석" },
+                { src: "/screenshots/aso_auto_rating_v2_final.png", alt: "자동 평가" },
+                { src: "/screenshots/aso_slope_chart_final.png", alt: "고도 프로필 차트" },
+                { src: "/screenshots/aso_slope_report_final.png", alt: "경사도 반영 교통 평가" },
               ]}
             />
           }
@@ -53,23 +54,22 @@ export default function Home() {
       </div>
 
       <FeatureDetail
-        badge="자동 평가"
-        title="원클릭으로 입지 분석 끝"
-        description="경사도·거점·노선까지 한번에 자동 분석합니다. 고도 프로필 차트로 역까지 실제 지형을 확인하고, 오르막·내리막을 반영한 실제 도보 시간을 알려드립니다."
+        badge="임장노트"
+        title="브리핑부터 채광 분석까지"
+        description="관심 동네의 부동산 소식을 매일 브리핑으로 받아보세요. 방향만 선택하면 일조량을 자동 계산해주고, 체크리스트로 꼼꼼히 기록할 수 있습니다."
         bullets={[
-          "교통·학군·상권 원클릭 자동 평가",
-          "역까지 고도 프로필 차트 제공",
-          "경사도 반영 실제 도보 시간 계산",
-          "항목별 별점으로 한눈에 비교",
+          "동네별 부동산 소식 브리핑 제공",
+          "실거래 내역(매매·전세) 실시간 확인",
+          "방향 선택 시 채광 시간 자동 분석",
+          "교통, 학군, 상권 등 항목별 리포트",
         ]}
         reversed
-        gradient="from-primary-500/90 to-accent-500/90"
+        gradient="from-primary-600/90 to-primary-800/90"
         mockupContent={
           <ScreenshotGroup
             images={[
-              { src: "/screenshots/aso_auto_rating_v2_final.png", alt: "자동 평가" },
-              { src: "/screenshots/aso_slope_chart_final.png", alt: "고도 프로필 차트" },
-              { src: "/screenshots/aso_slope_report_final.png", alt: "경사도 반영 교통 평가" },
+              { src: "/screenshots/aso_briefing.png", alt: "브리핑 화면" },
+              { src: "/screenshots/aso_sunlight_analysis.png", alt: "채광 분석" },
             ]}
           />
         }
