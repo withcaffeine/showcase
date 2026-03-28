@@ -5,6 +5,9 @@ node_modules/
 .next/
 out/
 
+# omc
+.omc/
+
 # misc
 *.tsbuildinfo
 next-env.d.ts
