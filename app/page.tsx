@@ -6,6 +6,7 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
 function ScreenshotGroup({ images }: { images: { src: string; alt: string }[] }) {
+  const widthClass = images.length === 3 ? "w-1/3" : "w-1/2";
   return (
     <div className="flex items-start gap-3">
       {images.map((img) => (
@@ -13,7 +14,7 @@ function ScreenshotGroup({ images }: { images: { src: string; alt: string }[] })
           key={img.src}
           src={img.src}
           alt={img.alt}
-          className="w-1/2 rounded-2xl shadow-lg"
+          className={`${widthClass} rounded-2xl shadow-lg`}
         />
       ))}
     </div>
@@ -50,6 +51,29 @@ export default function Home() {
           }
         />
       </div>
+
+      <FeatureDetail
+        badge="자동 평가"
+        title="원클릭으로 입지 분석 끝"
+        description="경사도·거점·노선까지 한번에 자동 분석합니다. 고도 프로필 차트로 역까지 실제 지형을 확인하고, 오르막·내리막을 반영한 실제 도보 시간을 알려드립니다."
+        bullets={[
+          "교통·학군·상권 원클릭 자동 평가",
+          "역까지 고도 프로필 차트 제공",
+          "경사도 반영 실제 도보 시간 계산",
+          "항목별 별점으로 한눈에 비교",
+        ]}
+        reversed
+        gradient="from-primary-500/90 to-accent-500/90"
+        mockupContent={
+          <ScreenshotGroup
+            images={[
+              { src: "/screenshots/aso_auto_rating_v2_final.png", alt: "자동 평가" },
+              { src: "/screenshots/aso_slope_chart_final.png", alt: "고도 프로필 차트" },
+              { src: "/screenshots/aso_slope_report_final.png", alt: "경사도 반영 교통 평가" },
+            ]}
+          />
+        }
+      />
 
       <FeatureDetail
         badge="도달권 분석"
