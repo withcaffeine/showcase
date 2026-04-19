@@ -75,6 +75,21 @@ export default function Hero() {
             App Store에서 다운로드
           </a>
           <a
+            href="https://play.google.com/store/apps/details?id=com.wooridongneclient.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex items-center gap-3 rounded-2xl bg-primary-950 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-primary-950/20 transition-all hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-primary-950/30"
+          >
+            <svg
+              className="h-6 w-6"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M3.18 23.76c.3.17.64.22.99.15l12.81-7.4-2.77-2.77-11.03 10.02zm-1.81-20.1v20.68c0 .5.21.94.55 1.25l.07.06 11.58-11.58v-.27L1.92 2.41l-.06.06c-.34.31-.55.75-.55 1.25l.06-.06zM20.65 10.49l-2.91-1.68-3.1 3.1 3.1 3.1 2.93-1.69c.84-.48.84-1.27-.02-1.83zM4.17.49L16.98 7.9l-2.77 2.77L3.18.65C3.48-.02 3.87-.14 4.17.49z" />
+            </svg>
+            Google Play에서 다운로드
+          </a>
+          <a
             href="#features"
             className="flex items-center gap-2 rounded-2xl border-2 border-primary-200 bg-white/50 px-8 py-4 text-base font-semibold text-primary-700 backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:border-primary-300 hover:bg-white"
           >
